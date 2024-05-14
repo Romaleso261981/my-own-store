@@ -62,5 +62,21 @@ export const conditioners = [
     amount: 3,
     image: "https://conditioner.smartclimate.com.ua/products/neoclima.jpg",
     description: "Опис кондиціонера 3"
+  },
+  {
+    id: 9,
+    title: "Кондиціонер Daikin",
+    price: 2000,
+    amount: 3,
+    image: "https://conditioner.smartclimate.com.ua/products/daikin.jpg",
+    description: "Опис кондиціонера 3"
+  },
+  {
+    id: 10,
+    title: "Кондиціонер Mitsubishi Electric",
+    price: 2000,
+    amount: 3,
+    image: "https://conditioner.smartclimate.com.ua/products/neoclima.jpg",
+    description: "Опис кондиціонера 3"
   }
 ];
