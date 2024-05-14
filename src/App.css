@@ -26,6 +26,7 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  list-style: none;
 }
 
 /* Выставляем основные настройки по-умолчанию для body */

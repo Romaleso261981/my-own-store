@@ -21,7 +21,9 @@
   margin-top: 40px;
 }
 .secondBlockLink {
+  display: block;
   color: #f4a305;
+  margin-top: 30px;
   font-size: 18px;
   transition: all 0.3s ease;
   cursor: pointer;
@@ -29,6 +31,22 @@
 .secondBlockLink:hover {
   color: #ee8c09;
   font-size: 18px;
+}
+
+.thirdBlock {
+  margin-top: 40px;
+}
+
+.thirdBlock > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+.thirdBlock > ul > li {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }
 
 .heroTitle {
