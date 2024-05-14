@@ -1,4 +1,4 @@
-import { Autocomplete, Burger, Group, rem } from "@mantine/core";
+import { Autocomplete, Group, Burger, rem } from "@mantine/core";
 import { useDisclosure } from "@mantine/hooks";
 import { IconSearch } from "@tabler/icons-react";
 import { MantineLogo } from "@mantinex/mantine-logo";
@@ -34,7 +34,7 @@ export function HeaderSearch() {
         </Group>
 
         <Group>
-          <Group gap={5} className={classes.links} visibleFrom="sm">
+          <Group ml={50} gap={5} className={classes.links} visibleFrom="sm">
             {items}
           </Group>
           <Autocomplete

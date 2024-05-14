@@ -1,13 +1,12 @@
-import './App.css'
-import {HeaderSearch} from "./features/Header/Header.tsx";
+import "./App.css";
+import { HeaderSearch } from "./features/Header/Header";
 
 function App() {
-
-    return (
-        <>
-            <HeaderSearch/>
-        </>
-    )
+  return (
+    <>
+      <HeaderSearch />
+    </>
+  );
 }
 
-export default App
+export default App;
