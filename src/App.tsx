@@ -1,10 +1,10 @@
 import "./App.css";
-import { HeaderSearch } from "./features/Header/Header";
+import Hero from "./features/Hero/Hero";
 
 function App() {
   return (
     <>
-      <HeaderSearch />
+      <Hero />
     </>
   );
 }

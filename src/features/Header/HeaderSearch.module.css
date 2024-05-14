@@ -1,11 +1,50 @@
 .header {
-  height: rem(56px);
-  margin-bottom: rem(120px);
-  background-color: var(--mantine-color-body);
-  border-bottom: rem(1px) solid
-    light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-4));
-  padding-left: var(--mantine-spacing-md);
-  padding-right: var(--mantine-spacing-md);
+  position: sticky;
+  width: 100%;
+  background-color: transparent;
+  border-bottom: 1px solid #785233;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.secondBlock > h2 {
+  margin-right: 20px;
+}
+
+.subTitle {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 15px;
+}
+
+.ancorPhone {
+  font-size: 16px;
+  color: #f4a305;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.international {
+  display: flex;
+  flex-direction: column;
+}
+.international > span {
+  color: white;
 }
 
 .inner {
