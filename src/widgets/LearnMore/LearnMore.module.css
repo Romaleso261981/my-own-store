@@ -1,0 +1,50 @@
+.wrapper {
+  padding: 160px 0 80px 0;
+  background-image: url(learnMore/triagnle_bcg_top.png),
+    url(learnMore/bl3_bcg.png);
+  background-repeat: no-repeat, repeat;
+  background-position: top, center;
+}
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+
+.container p {
+  color: white;
+  font-size: 18px;
+  text-align: center;
+}
+
+.container button {
+  cursor: pointer;
+  margin: 0px auto 0 auto;
+  margin-top: 40px;
+  display: block;
+  bottom: 20px;
+  width: 40%;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 63px;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #feed46 0%, #e4730b 12%, #d15213 70%);
+  transition: all 0.3s ease;
+}
+
+.container button:hover {
+  background: linear-gradient(to bottom, #edecde 0%, #361c02 12%, #f35405 70%);
+  box-shadow: #f35405 0px 0px 10px 0px;
+}

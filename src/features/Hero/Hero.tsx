@@ -45,9 +45,7 @@ export default function Hero() {
               </li>
             </ul>
           </div>
-          <button className={s.heroButton}>
-            Підібрати кондиціонери у 3 кліки
-          </button>
+          <button className={s.heroButton}>Підібрати кондиціонери</button>
         </div>
       </div>
     </section>

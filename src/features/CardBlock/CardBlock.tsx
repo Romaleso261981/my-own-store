@@ -12,13 +12,13 @@ const CardList: React.FC = () => {
         Виберіть відповідні кондиціонери за параметрами із 1600 моделей
       </h2>
       <FilterHolder />
-      <div className={s.cardsWrapper}>
+      <section className={s.cardsWrapper}>
         {conditioners.map((card, index) => (
           <div key={index}>
             <SingleCard card={card} />
           </div>
         ))}
-      </div>
+      </section>
     </section>
   );
 };

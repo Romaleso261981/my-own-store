@@ -1,12 +1,24 @@
 import "./App.css";
 import CardList from "./features/CardBlock/CardBlock";
 import Hero from "./features/Hero/Hero";
+import About from "./widgets/About/About";
+import Contacts from "./widgets/Contacts/Contacts";
+import Delivery from "./widgets/Delivery/Delivery";
+import Documentation from "./widgets/Documentation/Documentation";
+import LearnMore from "./widgets/LearnMore/LearnMore";
+import Payment from "./widgets/Payment/Payment";
 
 function App() {
   return (
     <>
       <Hero />
       <CardList />
+      <Delivery />
+      <Payment />
+      <Documentation />
+      <About />
+      <LearnMore />
+      <Contacts />
     </>
   );
 }

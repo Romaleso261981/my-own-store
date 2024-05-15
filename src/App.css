@@ -79,5 +79,7 @@ select {
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #fff6e2;
+  font-size: 15px;
+  color: #333333;
+  font-weight: 300;
 }
