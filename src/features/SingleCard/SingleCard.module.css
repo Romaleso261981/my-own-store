@@ -20,6 +20,7 @@
 }
 
 .cardButtonDetail {
+  width: 100%;
   display: block;
   border: 1px solid #f4a305;
   font-size: 16px;
@@ -30,6 +31,7 @@
 }
 
 .cardButtonCost {
+  width: 100%;
   padding-top: 12px;
   margin-top: 10px;
   padding-bottom: 11px;

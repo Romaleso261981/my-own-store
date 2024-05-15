@@ -12,6 +12,18 @@ export default function ConditionerSelection() {
     PhoneNumber: ""
   });
 
+  const clearForm = () => {
+    console.log("clearForm");
+    setFormData({
+      CeilingHeight: "",
+      NumberOfPeople: "",
+      AirAonditionerBrand: "",
+      roomArea: "",
+      NumberOfWindows: "",
+      PhoneNumber: ""
+    });
+  };
+
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = event.target;
     setFormData({
@@ -32,6 +44,7 @@ export default function ConditionerSelection() {
     } else if (step === 3) {
       setStep(1);
       handleSubmit();
+      clearForm();
     }
   };
 
