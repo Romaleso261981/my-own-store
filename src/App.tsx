@@ -2,6 +2,7 @@ import "./App.css";
 import CardList from "./features/CardBlock/CardBlock";
 import Hero from "./features/Hero/Hero";
 import About from "./widgets/About/About";
+import ConditionerSelection from "./widgets/ConditionerSelection/ConditionerSelection";
 import Contacts from "./widgets/Contacts/Contacts";
 import Delivery from "./widgets/Delivery/Delivery";
 import Documentation from "./widgets/Documentation/Documentation";
@@ -19,6 +20,7 @@ function App() {
       <About />
       <LearnMore />
       <Contacts />
+      <ConditionerSelection />
     </>
   );
 }
