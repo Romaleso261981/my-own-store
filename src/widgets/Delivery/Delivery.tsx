@@ -22,7 +22,7 @@ export default function Delivery() {
               </div>
             </li>
             <li className={s.thirdBlockLink}>
-              <img src="/public/delivery/blc7_i3.svg" alt="img" />
+              <img src="/delivery/blc7_i3.svg" alt="img" />
               <div>
                 <p>Працюємо офіційно за договором для</p>
                 <p>юридичних осіб (за потребою)</p>

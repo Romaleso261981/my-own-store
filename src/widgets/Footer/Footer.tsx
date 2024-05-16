@@ -1,12 +1,16 @@
-import s from "./HeaderSearch.module.css";
+import s from "./Footer.module.css";
 
-export function HeaderSearch() {
+export default function Footer() {
   return (
-    <header className={s.header}>
+    <footer className={s.footer}>
       <div className={s.container}>
         <div className={s.inner}>
           <div className={s.firstBlock}>
             <img src="/logo.png" />
+          </div>
+          <div className={s.secondBlock}>
+            <p>© 2021 Смарт Клімат</p>
+            <p>Продаж Кондиціонерів</p>
           </div>
           <div className={s.thirdBlock}>
             <img src="footer/tel_icon.svg" alt="phone" />
@@ -21,12 +25,8 @@ export function HeaderSearch() {
               <p>09:00 – 18:00 Пн.-Пт.</p>
             </div>
           </div>
-          <div className={s.international}>
-            <span>UA</span>
-            <span>RU</span>
-          </div>
         </div>
       </div>
-    </header>
+    </footer>
   );
 }

@@ -7,7 +7,9 @@ import Contacts from "./widgets/Contacts/Contacts";
 import Delivery from "./widgets/Delivery/Delivery";
 import Documentation from "./widgets/Documentation/Documentation";
 import ExamplesOfOurWork from "./widgets/ExamplesOfOurWork/ExamplesOfOurWork";
+import Footer from "./widgets/Footer/Footer";
 import LearnMore from "./widgets/LearnMore/LearnMore";
+import OurTeam from "./widgets/OurTeam/OurTeam";
 import Payment from "./widgets/Payment/Payment";
 
 function App() {
@@ -22,7 +24,9 @@ function App() {
       <About />
       <LearnMore />
       <Contacts />
+      <OurTeam />
       <ConditionerSelection />
+      <Footer />
     </>
   );
 }
