@@ -3,7 +3,6 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  margin-bottom: 60px;
   background-color: #fff6e2;
   padding: 100px 0 80px 0;
   background-image: url(conditionerSelection/bl4_bcg.jpg);
@@ -43,12 +42,21 @@ form {
 }
 
 input {
-  width: 100%;
+  width: 450px;
   padding: 10px;
+  margin-right: 200px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.inputBlock {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
 }
 
 button {
