@@ -1,0 +1,97 @@
+.examplesWor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0;
+}
+
+.examplesWork > h2 {
+  padding: 0px 0px 80px 0px;
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 30px;
+  color: #455158;
+  font-weight: 300;
+  text-align: center;
+}
+.examplesWork > p {
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 36px;
+}
+
+.examples1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.examples1 img {
+  margin-right: 40px;
+}
+.examples1 h3 {
+  font-size: 24px;
+  color: #f4a305;
+  padding: 0 0 10px 0;
+  font-weight: 700;
+  text-align: left;
+}
+
+.examplesDescription_bock2 {
+  display: flex;
+  flex-direction: row;
+}
+.examplesDescription_bock2 > h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #333333;
+  font-weight: 700;
+}
+.examplesDescription_bock2 > p {
+  width: 66.66666667%;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: #333333;
+}
+.examplesDescription_bock2 > p > span {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #0d0c0c;
+}
+
+.line {
+  display: block;
+  width: 80%;
+  height: 1px;
+  background-color: #7b7878;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 40px;
+  display: block;
+  bottom: 20px;
+  width: 80%;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 700;
+  height: 63px;
+  border-radius: 5px;
+  padding-top: 12px;
+  padding-bottom: 11px;
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #feed46 0%, #e4730b 12%, #d15213 70%);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #edecde 0%, #361c02 12%, #f35405 70%);
+  box-shadow: #f35405 0px 0px 10px 0px;
+}

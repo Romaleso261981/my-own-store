@@ -1,6 +1,6 @@
 .wrapper {
   padding: 100px 0 40px 0;
-  background-image: url(delivery/blc7_bcg.jpg);
+  background-image: url(delivery/blc7_bcg.jpg), url(images/blc7_bcg.jpg);
   background-repeat: no-repeat;
   background-position: top, top;
   background-size: 100%, cover;

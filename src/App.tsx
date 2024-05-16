@@ -6,6 +6,7 @@ import ConditionerSelection from "./widgets/ConditionerSelection/ConditionerSele
 import Contacts from "./widgets/Contacts/Contacts";
 import Delivery from "./widgets/Delivery/Delivery";
 import Documentation from "./widgets/Documentation/Documentation";
+import ExamplesOfOurWork from "./widgets/ExamplesOfOurWork/ExamplesOfOurWork";
 import LearnMore from "./widgets/LearnMore/LearnMore";
 import Payment from "./widgets/Payment/Payment";
 
@@ -14,6 +15,7 @@ function App() {
     <>
       <Hero />
       <CardList />
+      <ExamplesOfOurWork />
       <Delivery />
       <Payment />
       <Documentation />
