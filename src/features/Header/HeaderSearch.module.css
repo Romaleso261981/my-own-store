@@ -86,3 +86,20 @@
   font-size: 15px;
   font-weight: 300;
 }
+
+@media (max-width: 768px) {
+  .secondBlock {
+    display: none;
+  }
+  .inner {
+    gap: 30px;
+  }
+}
+@media (max-width: 450px) {
+  .inner {
+    padding: 40px 5px;
+    height: auto;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

@@ -94,6 +94,10 @@
   .secondBlock {
     display: none;
   }
+
+  .inner {
+    gap: 30px;
+  }
 }
 @media (max-width: 450px) {
   .inner {
