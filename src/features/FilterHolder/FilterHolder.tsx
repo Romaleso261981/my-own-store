@@ -1,6 +1,6 @@
 import s from "./FilterHolder.module.css";
 
-const FilterHolder = () => {
+export const FilterHolder = () => {
   return (
     <div className={s.wrapper}>
       <h3 className={s.mainTilte}>Виробники:</h3>
@@ -8,5 +8,3 @@ const FilterHolder = () => {
     </div>
   );
 };
-
-export default FilterHolder;

@@ -1,6 +1,6 @@
 import s from "./Contacts.module.css";
 
-export default function Contacts() {
+export const Contacts = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
@@ -22,4 +22,4 @@ export default function Contacts() {
       </div>
     </section>
   );
-}
+};

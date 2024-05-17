@@ -1,6 +1,6 @@
 import s from "./OurTeam.module.css";
 
-export default function OurTeam() {
+export const OurTeam = () => {
   return (
     <>
       <section className={s.wrapper}>
@@ -75,4 +75,4 @@ export default function OurTeam() {
       <div className={s.line}></div>
     </>
   );
-}
+};

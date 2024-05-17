@@ -1,5 +1,5 @@
 import s from "./About.module.css";
-export default function About() {
+export const About = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
@@ -50,4 +50,4 @@ export default function About() {
       </div>
     </section>
   );
-}
+};

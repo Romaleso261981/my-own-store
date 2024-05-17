@@ -14,7 +14,7 @@ type SingleCardProps = {
   card: Card;
 };
 
-const SingleCard: React.FC<SingleCardProps> = ({ card }) => {
+export const SingleCard: React.FC<SingleCardProps> = ({ card }) => {
   return (
     <div className={s.cardWrapper}>
       <h2>{card.title}</h2>
@@ -28,5 +28,3 @@ const SingleCard: React.FC<SingleCardProps> = ({ card }) => {
     </div>
   );
 };
-
-export default SingleCard;

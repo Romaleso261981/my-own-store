@@ -1,6 +1,6 @@
 import s from "./Payment.module.css";
 
-export default function Payment() {
+export const Payment = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
@@ -43,4 +43,4 @@ export default function Payment() {
       </div>
     </section>
   );
-}
+};

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import s from "./ConditionerSelection.module.css";
 
-export default function ConditionerSelection() {
+export const ConditionerSelection = () => {
   const [step, setStep] = useState(1);
   const [formData, setFormData] = useState({
     CeilingHeight: "",
@@ -124,4 +124,4 @@ export default function ConditionerSelection() {
       </div>
     </div>
   );
-}
+};

@@ -2,10 +2,9 @@ import React from "react";
 import { conditioners } from "./mockData";
 
 import s from "./CardBlock.module.css";
-import SingleCard from "../SingleCard/SingleCard";
-import FilterHolder from "../FilterHolder/FilterHolder";
+import { FilterHolder, SingleCard } from "..";
 
-const CardList: React.FC = () => {
+export const CardList: React.FC = () => {
   return (
     <section className={s.wrapper}>
       <h2 className={s.cardMainTitle}>
@@ -22,5 +21,3 @@ const CardList: React.FC = () => {
     </section>
   );
 };
-
-export default CardList;

@@ -1,6 +1,6 @@
 import s from "./ExamplesOfOurWork.module.css";
 
-export default function ExamplesOfOurWork() {
+export const ExamplesOfOurWork = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
@@ -45,4 +45,4 @@ export default function ExamplesOfOurWork() {
       </div>
     </div>
   );
-}
+};

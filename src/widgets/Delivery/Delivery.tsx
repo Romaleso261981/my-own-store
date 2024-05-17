@@ -1,6 +1,6 @@
 import s from "./Delivery.module.css";
 
-export default function Delivery() {
+export const Delivery = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
@@ -33,4 +33,4 @@ export default function Delivery() {
       </div>
     </div>
   );
-}
+};

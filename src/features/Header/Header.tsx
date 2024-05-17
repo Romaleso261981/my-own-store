@@ -1,6 +1,6 @@
 import s from "./HeaderSearch.module.css";
 
-export function HeaderSearch() {
+export const HeaderSearch = () => {
   return (
     <header className={s.header}>
       <div className={s.container}>
@@ -29,4 +29,4 @@ export function HeaderSearch() {
       </div>
     </header>
   );
-}
+};

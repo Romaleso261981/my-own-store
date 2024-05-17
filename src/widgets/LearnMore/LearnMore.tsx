@@ -1,6 +1,6 @@
 import s from "./LearnMore.module.css";
 
-export default function LearnMore() {
+export const LearnMore = () => {
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
@@ -22,4 +22,4 @@ export default function LearnMore() {
       </div>
     </section>
   );
-}
+};

@@ -1,7 +1,7 @@
+import { HeaderSearch } from "..";
 import s from "./Hero.module.css";
-import { HeaderSearch } from "../Header/Header";
 
-export default function Hero() {
+export const Hero = () => {
   return (
     <section className={s.heroWrapper}>
       <HeaderSearch />
@@ -50,4 +50,4 @@ export default function Hero() {
       </div>
     </section>
   );
-}
+};

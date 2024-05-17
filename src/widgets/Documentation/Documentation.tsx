@@ -1,6 +1,6 @@
 import s from "./Documentation.module.css";
 
-export default function Documentation() {
+export const Documentation = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.conteiner}>
@@ -24,4 +24,4 @@ export default function Documentation() {
       </div>
     </div>
   );
-}
+};
