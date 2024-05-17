@@ -3,8 +3,8 @@
   background-image: url("/public/delivery/blc7_bcg.jpg"),
     url("/public/images/blc7_bcg.jpg");
   background-repeat: no-repeat;
-  background-position: top, top;
-  background-size: 100%, cover;
+  background-position: bottom, top;
+  background-size: cover;
   color: white;
 }
 
@@ -12,6 +12,13 @@
   max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.mainTitles {
+  font-weight: 700;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 45px;
 }
 
 .inner {

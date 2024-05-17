@@ -1,14 +1,14 @@
 import "./App.css";
-import { Hero } from "./features";
-import { Footer } from "./widgets";
+import { CardList, Hero } from "./features";
+import { Delivery, Footer } from "./widgets";
 
 function App() {
   return (
     <>
       <Hero />
-      {/* <CardList /> */}
+      <CardList />
       {/* <ExamplesOfOurWork /> */}
-      {/* <Delivery /> */}
+      <Delivery />
       {/* <Payment /> */}
       {/* <Documentation /> */}
       {/* <About /> */}

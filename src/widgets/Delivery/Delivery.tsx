@@ -5,7 +5,7 @@ export const Delivery = () => {
     <div className={s.wrapper}>
       <div className={s.container}>
         <div className={s.inner}>
-          <h2 className={s.titles}>Доставка та умови роботи</h2>
+          <h2 className={s.mainTitles}>Доставка та умови роботи</h2>
           <ul>
             <li className={s.thirdBlockLink}>
               <img src="/delivery/blc7_i1.svg" alt="img" />
