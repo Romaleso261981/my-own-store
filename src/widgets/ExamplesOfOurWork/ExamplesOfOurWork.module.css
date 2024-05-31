@@ -95,3 +95,37 @@ button:hover {
   background: linear-gradient(to bottom, #edecde 0%, #361c02 12%, #f35405 70%);
   box-shadow: #f35405 0px 0px 10px 0px;
 }
+
+@media (max-width: 768px) {
+  .examples1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .examples1 img {
+    margin-right: 0;
+  }
+  .examplesDescription_bock2 {
+    flex-direction: column;
+  }
+  .examplesDescription_bock1 {
+    padding: 0 10px;
+  }
+  button {
+    width: 100%;
+    font-size: 25px;
+    height: 63px;
+  }
+}
+@media (max-width: 450px) {
+  .examplesWork > p {
+    font-size: 20px;
+    padding: 0 10px;
+    margin-bottom: 36px;
+  }
+  button {
+    width: 100%;
+    font-size: 18px;
+    height: 80px;
+  }
+}

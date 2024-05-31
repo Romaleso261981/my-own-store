@@ -17,16 +17,19 @@
   align-items: center;
 }
 
+.firstBlock {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .thirdBlock {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.thirdBlock img {
-  margin-right: 10px;
-  width: 40px;
-  height: 40px;
-}
+
 .thirdBlock a {
   color: white;
   text-decoration: none;

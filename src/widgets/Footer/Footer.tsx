@@ -1,3 +1,4 @@
+import { Logo } from "../../features";
 import s from "./Footer.module.css";
 
 export const Footer = () => {
@@ -6,10 +7,10 @@ export const Footer = () => {
       <div className={s.container}>
         <div className={s.inner}>
           <div className={s.firstBlock}>
-            <img src="/logo.png" />
+            <Logo />
           </div>
           <div className={s.secondBlock}>
-            <p>© 2021 Смарт Клімат</p>
+            <p>© 2021 Твій клімат</p>
             <p>Продаж Кондиціонерів</p>
           </div>
           <div className={s.thirdBlock}>
@@ -22,7 +23,7 @@ export const Footer = () => {
             <img src="footer/clock.svg" alt="logo" />
             <div>
               <p>Працюємо</p>
-              <p>09:00 – 18:00 Пн.-Пт.</p>
+              <p>09:00 – 18:00 Пн.- Сб.</p>
             </div>
           </div>
         </div>

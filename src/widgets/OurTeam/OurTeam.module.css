@@ -1,8 +1,8 @@
 .wrapper {
   width: 100vw;
   padding: 80px 0 140px 0;
-  background-image: url("/public/ourTeam/triagnle_bcg_bottom.png"),
-    url("/public/ourTeam/bl3_bcg.png");
+  background-image: url("ourTeam/triagnle_bcg_bottom.png"),
+    url("ourTeam/bl3_bcg.png");
   background-repeat: no-repeat, repeat;
   background-position: bottom, center;
   background-size: 100%, auto;

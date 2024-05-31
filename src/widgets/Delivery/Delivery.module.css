@@ -1,7 +1,6 @@
 .wrapper {
   padding: 100px 0 40px 0;
-  background-image: url("/public/delivery/blc7_bcg.jpg"),
-    url("/public/images/blc7_bcg.jpg");
+  background-image: url("delivery/blc7_bcg.jpg"), url("images/blc7_bcg.jpg");
   background-repeat: no-repeat;
   background-position: bottom, top;
   background-size: cover;
@@ -30,6 +29,12 @@
   border-radius: 10px;
   margin: 20px;
 }
+
+.thirdBlockLink > div > p {
+  color: #f1f2f8;
+  font-size: larger;
+  font-weight: 500;
+}
 .inner > ul {
   margin-top: 50px;
   display: flex;
@@ -48,4 +53,14 @@
 .inner > ul > li img {
   width: 100px;
   height: 100px;
+}
+
+@media (max-width: 450px) {
+  .inner {
+    padding: 0;
+    margin: 0;
+  }
+  .inner > ul > li {
+    width: 90%;
+  }
 }

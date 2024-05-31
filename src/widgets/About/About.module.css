@@ -72,3 +72,28 @@
   text-align: center;
   width: 80%;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 40px 0 0 0;
+  }
+  .list1,
+  .list2 {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  .coll3 {
+    width: 800%;
+  }
+  .coll1 {
+    width: 800%;
+  }
+  .coll2 {
+    width: 800%;
+  }
+}
+@media (max-width: 450px) {
+  .box > h2 {
+    padding: 0px 0px 40px 0px;
+  }
+}

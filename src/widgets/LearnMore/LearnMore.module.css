@@ -1,7 +1,7 @@
 .wrapper {
   padding: 160px 0 80px 0;
-  background-image: url("/public/learnMore/triagnle_bcg_top.png"),
-    url("/public/learnMore/bl3_bcg.png");
+  background-image: url("learnMore/triagnle_bcg_top.png"),
+    url("learnMore/bl3_bcg.png");
   background-repeat: no-repeat, repeat;
   background-position: top, center;
 }
@@ -47,4 +47,19 @@
 .container button:hover {
   background: linear-gradient(to bottom, #edecde 0%, #361c02 12%, #f35405 70%);
   box-shadow: #f35405 0px 0px 10px 0px;
+}
+
+@media (max-width: 768px) {
+  .container button {
+    width: 60%;
+    font-size: 20px;
+    height: 63px;
+  }
+}
+@media (max-width: 450px) {
+  .container button {
+    width: 100%;
+    font-size: 20px;
+    height: 63px;
+  }
 }

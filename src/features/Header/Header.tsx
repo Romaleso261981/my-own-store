@@ -1,12 +1,17 @@
+import { Logo } from "..";
 import s from "./HeaderSearch.module.css";
 
 export const HeaderSearch = () => {
+  const goToMain = () => {
+    window.location.href = "/";
+  };
+
   return (
     <header className={s.header}>
       <div className={s.container}>
         <div className={s.inner}>
-          <div className={s.firstBlock}>
-            <img src="/logo.png" />
+          <div onClick={goToMain} className={s.firstBlock}>
+            <Logo />
           </div>
           <div className={s.thirdBlock}>
             <img src="footer/tel_icon.svg" alt="phone" />

@@ -99,10 +99,6 @@
 }
 
 @media (max-width: 768px) {
-  .heroWrapper {
-    /* height: 100vh; */
-  }
-
   .secondBlock {
     margin-top: 20px;
   }
@@ -127,7 +123,8 @@
 }
 @media (max-width: 450px) {
   .heroButton {
-    font-size: 15px;
-    font-weight: 200;
+    width: 100%;
+    font-size: 20px;
+    height: 63px;
   }
 }

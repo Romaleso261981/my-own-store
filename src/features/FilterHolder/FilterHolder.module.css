@@ -18,3 +18,10 @@
   border-radius: 5px;
   border: 1px solid #b9b2a3;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90%;
+    height: auto;
+  }
+}

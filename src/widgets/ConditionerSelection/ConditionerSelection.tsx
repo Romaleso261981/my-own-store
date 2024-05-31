@@ -3,6 +3,7 @@ import s from "./ConditionerSelection.module.css";
 
 export const ConditionerSelection = () => {
   const [step, setStep] = useState(1);
+  const [onShow, setOnShow] = useState(false);
   const [formData, setFormData] = useState({
     CeilingHeight: "",
     NumberOfPeople: "",
@@ -36,6 +37,12 @@ export const ConditionerSelection = () => {
     console.log(formData);
   };
 
+  const setTime = () => {
+    setTimeout(() => {
+      setOnShow(false);
+    }, 2000);
+  };
+
   const setStepChanger = () => {
     if (step === 1) {
       setStep(2);
@@ -45,6 +52,8 @@ export const ConditionerSelection = () => {
       setStep(1);
       handleSubmit();
       clearForm();
+      setOnShow(true);
+      setTime();
     }
   };
 
@@ -67,18 +76,21 @@ export const ConditionerSelection = () => {
             </label>
             {step === 1 ? (
               <input
+                value={formData.CeilingHeight}
                 type="text"
                 name="CeilingHeight"
                 onChange={(e) => handleChange(e)}
               />
             ) : step === 2 ? (
               <input
+                value={formData.NumberOfPeople}
                 type="text"
                 name="NumberOfPeople"
                 onChange={(e) => handleChange(e)}
               />
             ) : (
               <input
+                value={formData.AirAonditionerBrand}
                 type="text"
                 name="AirAonditionerBrand"
                 onChange={(e) => handleChange(e)}
@@ -95,18 +107,21 @@ export const ConditionerSelection = () => {
             </label>
             {step === 1 ? (
               <input
+                value={formData.roomArea}
                 type="text"
                 name="roomArea"
                 onChange={(e) => handleChange(e)}
               />
             ) : step === 2 ? (
               <input
+                value={formData.NumberOfWindows}
                 type="text"
                 name="NumberOfWindows"
                 onChange={(e) => handleChange(e)}
               />
             ) : (
               <input
+                value={formData.PhoneNumber}
                 type="text"
                 name="PhoneNumber"
                 onChange={(e) => handleChange(e)}
@@ -121,6 +136,11 @@ export const ConditionerSelection = () => {
               : "Зробити замовлення"}
           </button>
         </form>
+        {onShow && (
+          <div className={s.sendSms}>
+            Ваше замовлення відправленне очікуйте на наш дзвінок
+          </div>
+        )}
       </div>
     </div>
   );
