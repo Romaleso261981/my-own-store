@@ -1,7 +1,7 @@
 .wrapper {
   padding: 160px 0 80px 0;
-  background-image: url("learnMore/triagnle_bcg_top.png"),
-    url("learnMore/bl3_bcg.png");
+  background-image: url("/public/learnMore/triagnle_bcg_top.png"),
+    url("/public/learnMore/bl3_bcg.png");
   background-repeat: no-repeat, repeat;
   background-position: top, center;
 }
