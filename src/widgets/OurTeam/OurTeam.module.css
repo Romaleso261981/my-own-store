@@ -6,6 +6,9 @@
   background-repeat: no-repeat, repeat;
   background-position: bottom, center;
   background-size: 100%, auto;
+  @media (max-width: 450px) {
+    width: 100%;
+  }
 }
 
 .container {
