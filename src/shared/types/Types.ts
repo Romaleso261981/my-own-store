@@ -22,17 +22,15 @@ export type Card = {
   amount: number;
 };
 
-// export type UserState = {
-//   user: User | null | undefined;
-//   usersData: User[];
-//   users: User[];
-//   loading: boolean;
-// };
-// export type AuthState = {
-//   userData: User | null;
-//   loading: boolean;
-//   isRegistered: boolean;
-// };
+export type Conditioner = {
+  id: number;
+  path: string;
+  title: string;
+  image: string;
+  description: string;
+  price: number;
+  amount: number;
+};
 
 export interface IAuth {
   userName: string;

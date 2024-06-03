@@ -1,10 +1,15 @@
 import React from "react";
-import { conditioners } from "./mockData";
 
 import s from "./CardBlock.module.css";
 import { SingleCard } from "..";
+import { Conditioner } from "../../shared/types/Types";
 
-export const CardList: React.FC = () => {
+type CardListProps = {
+  data: Conditioner[];
+  type?: string;
+};
+
+export const CardList: React.FC<CardListProps> = ({ data, type }) => {
   return (
     <section className={s.wrapper}>
       <h2 className={s.cardMainTitle}>
@@ -12,9 +17,9 @@ export const CardList: React.FC = () => {
       </h2>
       {/* <FilterHolder /> */}
       <section className={s.cardsWrapper}>
-        {conditioners.map((card, index) => (
+        {data.map((card, index) => (
           <div key={index}>
-            <SingleCard card={card} />
+            <SingleCard card={card} type={type} />
           </div>
         ))}
       </section>

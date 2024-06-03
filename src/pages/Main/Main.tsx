@@ -5,29 +5,31 @@ import {
   ConditionerSelection,
   Contacts,
   Delivery,
-  Documentation,
   ExamplesOfOurWork,
   Footer,
   LearnMore,
-  OurTeam,
   Payment
 } from "../../widgets";
+import { BackToTop } from "../../features/BackToTop/BackToTop";
+
+import { conditioners } from "./mockData";
 
 export const Main = () => {
   return (
     <section className={classes.container}>
       <Hero />
-      <CardList />
+      <CardList data={conditioners} type="main" />
       <ExamplesOfOurWork />
       <Delivery />
       <Payment />
-      <Documentation />
+      {/* <Documentation /> */}
       <About />
       <LearnMore />
       <Contacts />
-      <OurTeam />
+      {/* <OurTeam /> */}
       <ConditionerSelection />
       <Footer />
+      <BackToTop />
     </section>
   );
 };

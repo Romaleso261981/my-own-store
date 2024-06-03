@@ -1,34 +1,36 @@
-.examplesWor {
+.examplesWork {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
-  gap: 20px;
   justify-content: center;
   align-items: center;
-  margin: 50px auto 0;
 }
 
 .examplesWork > h2 {
-  padding: 0px 0px 80px 0px;
   margin: 0;
-  padding-bottom: 30px;
-  font-size: 30px;
+  padding: 0;
+  font-size: 50px;
   color: #455158;
   font-weight: 300;
   text-align: center;
 }
 .examplesWork > p {
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
   padding-bottom: 40px;
-  margin-bottom: 36px;
 }
 
 .examples1 {
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 }
 .examples1 img {
+  width: 450px;
   margin-right: 40px;
 }
 .examples1 h3 {
@@ -50,10 +52,14 @@
   font-weight: 700;
 }
 .examplesDescription_bock2 > p {
-  width: 66.66666667%;
+  width: 60%;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   color: #333333;
+  @media (max-width: 768px) {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 .examplesDescription_bock2 > p > span {
   font-family: "Roboto", sans-serif;
@@ -105,9 +111,7 @@ button:hover {
   .examples1 img {
     margin-right: 0;
   }
-  .examplesDescription_bock2 {
-    flex-direction: column;
-  }
+
   .examplesDescription_bock1 {
     padding: 0 10px;
   }

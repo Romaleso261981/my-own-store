@@ -1,6 +1,14 @@
+import { useState } from "react";
 import s from "./Payment.module.css";
+import { ContactForm } from "../../features";
 
 export const Payment = () => {
+  const [isShowForm, setIsShowForm] = useState(false);
+
+  const handleShowForm = () => {
+    setIsShowForm((prev) => !prev);
+    window.scrollTo(0, 0);
+  };
   return (
     <section className={s.wrapper}>
       <div className={s.container}>
@@ -38,9 +46,10 @@ export const Payment = () => {
           </div>
         </div>
         <div className={s.row3}>
-          <button>ЗАДАТИ ПИТАННЯ</button>
+          <button onClick={handleShowForm}>ЗАДАТИ ПИТАННЯ</button>
         </div>
       </div>
+      {isShowForm && <ContactForm setIsShowForm={handleShowForm} />}
     </section>
   );
 };
