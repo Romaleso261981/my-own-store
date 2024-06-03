@@ -22,7 +22,9 @@ export const SingleCard: React.FC<SingleCardProps> = ({ card, type }) => {
       <div className={s.descriptionWrapper}>
         <h2>Опис</h2>
         <p>{card.description}</p>
-        <p className={s.price}>{`${card.price} .00 грн.`}</p>
+        {type !== "main" && (
+          <p className={s.price}>{`${card.price} .00 грн.`}</p>
+        )}
         <div className={s.buttonWrapper}>
           <button className={s.cardButtonDetail}>
             {type === "main" ? "Замовити консультацію" : "Детальніше"}
