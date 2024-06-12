@@ -1,9 +1,9 @@
-.scrollToTop {
+.BackToTopWrapper {
   position: fixed;
-  bottom: 100px;
-  right: 100px;
-  width: 100px;
-  height: 100px;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px; 
   border-radius: 50%;
   background-color: #007bff;
   color: #fff;
@@ -11,8 +11,51 @@
   outline: none;
   cursor: pointer;
   display: none;
+  background: linear-gradient(to bottom, #c6eff3 0%, #88cdea 12%, #1a6bdc 70%);
   transition: all 0.9s ease-in-out;
   box-shadow: #007bff 0px 0px 10px;
+  &:hover {
+    background: linear-gradient(
+      to bottom,
+      #c6eff3 0%,
+      #88cdea 12%,
+      #1a6bdc 70%
+    );
+    box-shadow: #007bff 0px 0px 20px;
+  }
+  @media (max-width: 768px) {
+    bottom: 10px;
+    right: 10px;
+    width: 80px;
+    height: 80px;
+  }
+}
+
+.scrollToTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: none;
+  background: linear-gradient(to bottom, #c6eff3 0%, #88cdea 12%, #1a6bdc 70%);
+  transition: all 0.9s ease-in-out;
+  box-shadow: #007bff 0px 0px 10px;
+  &:hover {
+    background: linear-gradient(
+      to bottom,
+      #c6eff3 0%,
+      #88cdea 12%,
+      #1a6bdc 70%
+    );
+    box-shadow: #007bff 0px 0px 20px;
+  }
   @media (max-width: 768px) {
     bottom: 10px;
     right: 10px;

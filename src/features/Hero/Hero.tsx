@@ -1,7 +1,15 @@
-import { HeaderSearch } from "..";
+import { useState } from "react";
+import { ContactForm, HeaderSearch } from "..";
 import s from "./Hero.module.css";
 
 export const Hero = () => {
+  const [isShowForm, setIsShowForm] = useState(false);
+
+  const handleShowForm = () => {
+    setIsShowForm((prev) => !prev);
+    window.scrollTo(0, 0);
+  };
+
   return (
     <section className={s.heroWrapper}>
       <HeaderSearch />
@@ -45,9 +53,12 @@ export const Hero = () => {
               </li>
             </ul>
           </div>
-          <button className={s.heroButton}>Підібрати кондиціонери</button>
+          <button onClick={handleShowForm} className={s.heroButton}>
+            Підібрати кондиціонери
+          </button>
         </div>
       </div>
+      {isShowForm && <ContactForm setIsShowForm={handleShowForm} />}
     </section>
   );
 };

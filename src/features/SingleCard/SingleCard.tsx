@@ -18,7 +18,7 @@ export const SingleCard: React.FC<SingleCardProps> = ({ card, type }) => {
   return (
     <div className={s.cardWrapper}>
       <h2>{card.title}</h2>
-      <img src={card.image} />
+      <img className={s.cardImg} src={card.image} />
       <div className={s.descriptionWrapper}>
         <h2>Опис</h2>
         <p>{card.description}</p>

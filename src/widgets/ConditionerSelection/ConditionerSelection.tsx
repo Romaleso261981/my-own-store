@@ -60,7 +60,7 @@ export const ConditionerSelection = () => {
   return (
     <div className={s.wrapper}>
       <div className={s.container}>
-        <h2>
+        <h2 className={s.mainTitle}>
           Підберіть кондиціонери в 3 кліки та отримайте відповідні варіанти{" "}
           <br /> на email:
         </h2>
